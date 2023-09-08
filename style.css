@@ -1,0 +1,84 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(203, 36, 91);
+}
+.container{
+    width: 450px;
+    height: 600px;
+    background-color: 	#28282B;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 2px 3px 10px  grey;
+    
+}
+.container .calculate{
+    width: 95%;
+    height: 25%;
+    margin: 20px 10px 0px 10px;
+    border-radius: 10px;
+    pointer-events: none;
+}
+.container .calculate input{
+    width: 95%;
+    height: 50%;
+    padding: 20px 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: right;
+    box-shadow: 2px 3px 10px  grey;
+
+}
+.container .numpad{
+    width: 95%;
+    height: 60%;
+    margin: 0px 10px 10px 10px;
+    /* display: grid; */
+}
+.container .numpad .numline{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .numpad button{
+    width: 80px;
+    height: 70px;
+    padding: auto;
+    margin: 6px 10px;
+    font-size: 25px;
+    border: .5px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px lightgray;
+    cursor: pointer;
+}
+.numline button:active{
+    transform: scale(0.99);
+}
+.ops{
+   background-color: rgb(25, 133, 248);
+}
+
+.top{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin: 0px;
+    background-color: black;
+}
+.top h1{
+    padding: auto;
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+}
+.top h3{
+    padding: auto;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
